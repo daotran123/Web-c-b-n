@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(202, 214, 225);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.box {
+    background: rgb(235, 244, 252);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 25px
+}
+
+.form-box {
+    width: 450px;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.form-box form .field {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+
+}
+
+.form-box form .input label {
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.form-box form .input input {
+    width: 100%;
+    height: 25px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #2196F3;
+    margin-right: 15px;
+}
+
+.btn:hover {
+    background: #0b7dda;
+}
+
+.nav {
+    background: #c0d3ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.nav .logo {
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+
+.nav .right-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav .right-links a {
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+main {
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
